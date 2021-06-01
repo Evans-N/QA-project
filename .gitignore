@@ -8,7 +8,7 @@
 *.ear
 *.nar
 hs_err_pid*
-db.properties
+src/main/resources/db.properties
 
 ##############################
 ## Maven
