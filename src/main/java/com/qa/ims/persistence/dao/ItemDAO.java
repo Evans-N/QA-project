@@ -23,15 +23,15 @@ public class ItemDAO implements Dao<Item> {
 		
 		Long id = resultSet.getLong("id");
 		String itemName = resultSet.getString("item_name");
-		Long value = resultSet.getLong("value");
+		Double value = resultSet.getDouble("value");
 		
 		return new Item(id, itemName, value);
 	}
 
 	/**
-	 * Reads all customers from the database
+	 * Reads all items from the database
 	 * 
-	 * @return A list of customers
+	 * @return A list of items
 	 */
 	@Override
 	public List<Item> readAll() {
@@ -73,9 +73,9 @@ public class ItemDAO implements Dao<Item> {
 	}
 
 	/**
-	 * Creates a customer in the database
+	 * Creates an item in the database
 	 * 
-	 * @param customer - takes in a customer object. id will be ignored
+	 * @param item - takes in an item object. id will be ignored
 	 */
 	@Override
 	public Item create(Item item) {
@@ -84,7 +84,7 @@ public class ItemDAO implements Dao<Item> {
 				PreparedStatement statement = connection
 						.prepareStatement("INSERT INTO items(item_name, value) VALUES (?, ?)");) {
 			statement.setString(1, item.getItemName());
-			statement.setLong(2, item.getValue());
+			statement.setDouble(2, item.getValue());
 			statement.executeUpdate();
 			return readLatest();
 			
@@ -115,10 +115,10 @@ public class ItemDAO implements Dao<Item> {
 	}
 
 	/**
-	 * Updates a customer in the database
+	 * Updates an item in the database
 	 * 
-	 * @param customer - takes in a customer object, the id field will be used to
-	 *                 update that customer in the database
+	 * @param item - takes in an item object, the id field will be used to
+	 *                 update that item in the database
 	 * @return
 	 */
 	@Override
@@ -127,7 +127,7 @@ public class ItemDAO implements Dao<Item> {
 				PreparedStatement statement = connection
 						.prepareStatement("UPDATE items SET item_name = ?, value = ? WHERE id = ?");) {
 			statement.setString(1, item.getItemName());
-			statement.setLong(2, item.getValue());
+			statement.setDouble(2, item.getValue());
 			statement.setLong(3, item.getItemId());
 			statement.executeUpdate();
 			return read(item.getItemId());
@@ -139,9 +139,9 @@ public class ItemDAO implements Dao<Item> {
 	}
 
 	/**
-	 * Deletes a customer in the database
+	 * Deletes an item in the database
 	 * 
-	 * @param id - id of the customer
+	 * @param id - id of the item
 	 */
 	@Override
 	public int delete(long id) {
