@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_HjfDAMTzEeuPUctmgKffRA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_HjjUcMTzEeuPUctmgKffRA" source="codegen">
         <details xmi:id="_HjjUccTzEeuPUctmgKffRA" key="codegenDirectory" value="/QA-project_QA-project/src/main/java"/>
-        <details xmi:id="_IgVs0MTzEeuPUctmgKffRA" key="AssociatedSourceCode" value="/QA-project_QA-project/src/main/java/com/qa/ims/IMS.java;1673503480/1;/QA-project_QA-project/src/main/java/com/qa/ims/Runner.java;1489811385/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/Action.java;3856968720/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/CrudController.java;399468005/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/CustomerController.java;3304587025/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/ItemController.java;2947821623/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/OrderController.java;1130442671/1;/QA-project_QA-project/src/main/java/com/qa/ims/exceptions/CustomerNotFoundException.java;1897969000/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/CustomerDAO.java;3571634358/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/Dao.java;952591983/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/ItemDAO.java;3732830892/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/OrderDAO.java;3674524402/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Customer.java;384648001/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Domain.java;2777159637/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Item.java;1425295573/1;/QA-project_QA-project/src/test/java/com/qa/ims/persistence/domain/CustomerTest.java;2177081932/1;/QA-project_QA-project/src/main/java/com/qa/ims/utils/DBUtils.java;3355207460/1;/QA-project_QA-project/src/main/java/com/qa/ims/utils/Utils.java;3361044491/1;/QA-project_QA-project/src/test/java/com/qa/ims/controllers/CustomerControllerTest.java;2205039308/1;/QA-project_QA-project/src/test/java/com/qa/ims/persistence/dao/CustomerDAOTest.java;3842365363/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Order.java;291587749/1;"/>
+        <details xmi:id="_IgVs0MTzEeuPUctmgKffRA" key="AssociatedSourceCode" value="/QA-project_QA-project/src/main/java/com/qa/ims/IMS.java;3239216948/1;/QA-project_QA-project/src/main/java/com/qa/ims/Runner.java;1489811385/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/Action.java;3856968720/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/CrudController.java;399468005/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/CustomerController.java;3304587025/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/ItemController.java;687168894/1;/QA-project_QA-project/src/main/java/com/qa/ims/controller/OrderController.java;1130442671/1;/QA-project_QA-project/src/main/java/com/qa/ims/exceptions/CustomerNotFoundException.java;1897969000/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/CustomerDAO.java;3571634358/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/Dao.java;952591983/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/ItemDAO.java;179038851/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/dao/OrderDAO.java;1935532606/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Customer.java;384648001/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Domain.java;1573521082/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Item.java;1425295573/1;/QA-project_QA-project/src/test/java/com/qa/ims/persistence/domain/CustomerTest.java;2177081932/1;/QA-project_QA-project/src/main/java/com/qa/ims/utils/DBUtils.java;3355207460/1;/QA-project_QA-project/src/main/java/com/qa/ims/utils/Utils.java;3361044491/1;/QA-project_QA-project/src/test/java/com/qa/ims/controllers/CustomerControllerTest.java;2205039308/1;/QA-project_QA-project/src/test/java/com/qa/ims/persistence/dao/CustomerDAOTest.java;3842365363/1;/QA-project_QA-project/src/main/java/com/qa/ims/persistence/domain/Order.java;291587749/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_IQ6JsMTzEeuPUctmgKffRA">
@@ -217,7 +217,7 @@ to be sent to a service class</body>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_IRagAMTzEeuPUctmgKffRA" name="ItemController">
-              <ownedComment xmi:id="_IYpwcMTzEeuPUctmgKffRA">
+              <ownedComment xmi:id="_Pbyn8MUzEeuPUctmgKffRA">
                 <body>Takes in items details for CRUD functionality
  *</body>
               </ownedComment>
@@ -230,7 +230,9 @@ to be sent to a service class</body>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYaf4MTzEeuPUctmgKffRA" name="ItemController" specification="_IWt2wMTzEeuPUctmgKffRA">
                 <ownedParameter xmi:id="_IYaf4cTzEeuPUctmgKffRA" name="itemDAO" type="_IRq-sMTzEeuPUctmgKffRA"/>
                 <ownedParameter xmi:id="_IYaf4sTzEeuPUctmgKffRA" name="utils" type="_ISNKMMTzEeuPUctmgKffRA"/>
-                <ownedParameter xmi:id="_IYaf48TzEeuPUctmgKffRA" type="_IRagAMTzEeuPUctmgKffRA" direction="return"/>
+                <ownedParameter xmi:id="_IYaf48TzEeuPUctmgKffRA" type="_IRagAMTzEeuPUctmgKffRA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>super();
 		this.itemDAO = itemDAO;
@@ -239,6 +241,7 @@ to be sent to a service class</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYaf5MTzEeuPUctmgKffRA" name="readAll" specification="_IRbuIMTzEeuPUctmgKffRA">
                 <ownedParameter xmi:id="_IYaf5cTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" isOrdered="true" direction="return">
+                  <name xsi:nil="true"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IYaf5sTzEeuPUctmgKffRA" value="*"/>
                 </ownedParameter>
                 <language>java</language>
@@ -250,26 +253,30 @@ to be sent to a service class</body>
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYaf58TzEeuPUctmgKffRA" name="create" specification="_IRdjUMTzEeuPUctmgKffRA">
-                <ownedParameter xmi:id="_IYaf6MTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                <ownedParameter xmi:id="_IYaf6MTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>LOGGER.info(&quot;Please enter the item's name&quot;);
 		String itemName = utils.getString();
 		LOGGER.info(&quot;Please enter a price&quot;);
-		Long value = utils.getLong();
+		Double value = utils.getDouble();
 		Item item = itemDAO.create(new Item(itemName, value));
 		LOGGER.info(&quot;item added&quot;);
 		return item;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYaf6cTzEeuPUctmgKffRA" name="update" specification="_IReKYcTzEeuPUctmgKffRA">
-                <ownedParameter xmi:id="_IYaf6sTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                <ownedParameter xmi:id="_IYaf6sTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>LOGGER.info(&quot;Please enter the id of the item you would like to update&quot;);
 		Long id = utils.getLong();
 		LOGGER.info(&quot;Please enter an item name&quot;);
 		String itemName = utils.getString();
 		LOGGER.info(&quot;Please enter a value&quot;);
-		Long value = utils.getLong();
+		Double value = utils.getDouble();
 		Item item = itemDAO.update(new Item(id, itemName, value));
 		LOGGER.info(&quot;item Updated&quot;);
 		return item;
@@ -277,6 +284,7 @@ to be sent to a service class</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYaf68TzEeuPUctmgKffRA" name="delete" specification="_IRexccTzEeuPUctmgKffRA">
                 <ownedParameter xmi:id="_IYaf7MTzEeuPUctmgKffRA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
                 </ownedParameter>
                 <language>java</language>
@@ -531,17 +539,20 @@ to be sent to a service class</body>
                 <interfaceRealization xmi:id="_IW4O0MTzEeuPUctmgKffRA" client="_IRq-sMTzEeuPUctmgKffRA" supplier="_IRn7YMTzEeuPUctmgKffRA" contract="_IRn7YMTzEeuPUctmgKffRA"/>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYcVEMTzEeuPUctmgKffRA" name="modelFromResultSet" specification="_IXmAgMTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYcVEcTzEeuPUctmgKffRA" name="resultSet" type="_IWvr88TzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYcVEsTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYcVEsTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>Long id = resultSet.getLong(&quot;id&quot;);
 		String itemName = resultSet.getString(&quot;item_name&quot;);
-		Long value = resultSet.getLong(&quot;value&quot;);
+		Double value = resultSet.getDouble(&quot;value&quot;);
 		
 		return new Item(id, itemName, value);
 	</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYcVE8TzEeuPUctmgKffRA" name="readAll" specification="_IRrlwMTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYcVFMTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" isOrdered="true" direction="return">
+                    <name xsi:nil="true"/>
                     <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IYcVFcTzEeuPUctmgKffRA" value="*"/>
                   </ownedParameter>
                   <language>java</language>
@@ -566,7 +577,9 @@ to be sent to a service class</body>
 	</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYcVFsTzEeuPUctmgKffRA" name="readLatest" specification="_IRuCAsTzEeuPUctmgKffRA">
-                  <ownedParameter xmi:id="_IYcVF8TzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYcVF8TzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>try (Connection connection = DBUtils.getInstance().getConnection();
 				Statement statement = connection.createStatement();
@@ -584,13 +597,15 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYcVGMTzEeuPUctmgKffRA" name="create" specification="_IW414cTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYcVGcTzEeuPUctmgKffRA" name="item" type="_IR9SkMTzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYcVGsTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYcVGsTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>try (Connection connection = DBUtils.getInstance().getConnection();
 				PreparedStatement statement = connection
 						.prepareStatement(&quot;INSERT INTO items(item_name, value) VALUES (?, ?)&quot;);) {
 			statement.setString(1, item.getItemName());
-			statement.setLong(2, item.getValue());
+			statement.setDouble(2, item.getValue());
 			statement.executeUpdate();
 			return readLatest();
 			
@@ -604,7 +619,9 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYc8IMTzEeuPUctmgKffRA" name="read" specification="_IXn1ssTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYc8IcTzEeuPUctmgKffRA" name="id" type="_IXhvEMTzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYc8IsTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYc8IsTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>try (Connection connection = DBUtils.getInstance().getConnection();
 				PreparedStatement statement = connection.prepareStatement(&quot;SELECT * FROM items WHERE id = ?&quot;);) {
@@ -623,13 +640,15 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYc8I8TzEeuPUctmgKffRA" name="update" specification="_IW6EAMTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYc8JMTzEeuPUctmgKffRA" name="item" type="_IR9SkMTzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYc8JcTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYc8JcTzEeuPUctmgKffRA" type="_IR9SkMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>try (Connection connection = DBUtils.getInstance().getConnection();
 				PreparedStatement statement = connection
 						.prepareStatement(&quot;UPDATE items SET item_name = ?, value = ? WHERE id = ?&quot;);) {
 			statement.setString(1, item.getItemName());
-			statement.setLong(2, item.getValue());
+			statement.setDouble(2, item.getValue());
 			statement.setLong(3, item.getItemId());
 			statement.executeUpdate();
 			return read(item.getItemId());
@@ -645,6 +664,7 @@ to be sent to a service class</body>
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
                   </ownedParameter>
                   <ownedParameter xmi:id="_IYc8KMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
                   </ownedParameter>
                   <language>java</language>
@@ -699,7 +719,9 @@ to be sent to a service class</body>
                 <interfaceRealization xmi:id="_IW7SIMTzEeuPUctmgKffRA" client="_IRxsYMTzEeuPUctmgKffRA" supplier="_IRn7YMTzEeuPUctmgKffRA" contract="_IRn7YMTzEeuPUctmgKffRA"/>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYc8KcTzEeuPUctmgKffRA" name="modelFromResultSet" specification="_IXpD0MTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYc8KsTzEeuPUctmgKffRA" name="resultSet" type="_IWvr88TzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYc8K8TzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYc8K8TzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>Long id = resultSet.getLong(&quot;id&quot;);
 		Long customerId = resultSet.getLong(&quot;customer_id&quot;);
@@ -710,6 +732,7 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYdjMMTzEeuPUctmgKffRA" name="readAll" specification="_IRyTcMTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYdjMcTzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" isOrdered="true" direction="return">
+                    <name xsi:nil="true"/>
                     <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IYdjMsTzEeuPUctmgKffRA" value="*"/>
                   </ownedParameter>
                   <language>java</language>
@@ -734,7 +757,9 @@ to be sent to a service class</body>
 	</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYdjM8TzEeuPUctmgKffRA" name="readLatest" specification="_IRy6g8TzEeuPUctmgKffRA">
-                  <ownedParameter xmi:id="_IYdjNMTzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYdjNMTzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>try (Connection connection = DBUtils.getInstance().getConnection();
 				Statement statement = connection.createStatement();
@@ -752,13 +777,15 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYdjNcTzEeuPUctmgKffRA" name="create" specification="_IW-8gcTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYdjNsTzEeuPUctmgKffRA" name="order" type="_IScawMTzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYdjN8TzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYdjN8TzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>try (Connection connection = DBUtils.getInstance().getConnection();
 				PreparedStatement statement = connection
 						.prepareStatement(&quot;INSERT INTO orders(fk_customers_id, total) VALUES (?, ?)&quot;);) {
 			statement.setLong(1, order.getCustomerId());
-			statement.setLong(2, order.getTotal());
+			statement.setDouble(2, order.getTotal());
 			statement.executeUpdate();
 			return readLatest();
 			
@@ -1013,23 +1040,18 @@ to be sent to a service class</body>
                   <ownedParameter xmi:id="_IXBYwsTzEeuPUctmgKffRA" type="_IR5BIMTzEeuPUctmgKffRA" direction="return"/>
                 </ownedOperation>
                 <ownedLiteral xmi:id="_IR5oMMTzEeuPUctmgKffRA" name="CUSTOMER">
-                  <specification xmi:type="uml:Expression" xmi:id="_IR5oMcTzEeuPUctmgKffRA">
-                    <operand xmi:type="uml:LiteralString" xmi:id="_IYpwccTzEeuPUctmgKffRA" value="&quot;Information about customers&quot;"/>
+                  <specification xmi:type="uml:Expression" xmi:id="_XdY8UMUyEeuPUctmgKffRA">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_Xdb_oMUyEeuPUctmgKffRA" value="&quot;Information about customers&quot;"/>
                   </specification>
                 </ownedLiteral>
                 <ownedLiteral xmi:id="_IR5oMsTzEeuPUctmgKffRA" name="ITEM">
-                  <specification xmi:type="uml:Expression" xmi:id="_IR5oM8TzEeuPUctmgKffRA">
-                    <operand xmi:type="uml:LiteralString" xmi:id="_IYpwcsTzEeuPUctmgKffRA" value="&quot;Individual Items&quot;"/>
-                  </specification>
-                </ownedLiteral>
-                <ownedLiteral xmi:id="_IR5oNMTzEeuPUctmgKffRA" name="ORDER">
-                  <specification xmi:type="uml:Expression" xmi:id="_IR6PQMTzEeuPUctmgKffRA">
-                    <operand xmi:type="uml:LiteralString" xmi:id="_IYpwc8TzEeuPUctmgKffRA" value="&quot;Purchases of items&quot;"/>
+                  <specification xmi:type="uml:Expression" xmi:id="_XdY8UcUyEeuPUctmgKffRA">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_Xdb_ocUyEeuPUctmgKffRA" value="&quot;Individual Items&quot;"/>
                   </specification>
                 </ownedLiteral>
                 <ownedLiteral xmi:id="_IR6PQcTzEeuPUctmgKffRA" name="STOP">
-                  <specification xmi:type="uml:Expression" xmi:id="_IR6PQsTzEeuPUctmgKffRA">
-                    <operand xmi:type="uml:LiteralString" xmi:id="_IYqXgMTzEeuPUctmgKffRA" value="&quot;To close the application&quot;"/>
+                  <specification xmi:type="uml:Expression" xmi:id="_XdY8UsUyEeuPUctmgKffRA">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_Xdb_osUyEeuPUctmgKffRA" value="&quot;To close the application&quot;"/>
                   </specification>
                 </ownedLiteral>
               </packagedElement>
@@ -1197,7 +1219,9 @@ to be sent to a service class</body>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYnUMMTzEeuPUctmgKffRA" name="Order" specification="_IX1REMTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYnUMcTzEeuPUctmgKffRA" name="customerId" type="_IXhvEMTzEeuPUctmgKffRA"/>
                   <ownedParameter xmi:id="_IYnUMsTzEeuPUctmgKffRA" name="items" type="_IWnJEMTzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYnUM8TzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYnUM8TzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>this.setCustomerId(customerId);
 		this.items = items;
@@ -1209,14 +1233,18 @@ to be sent to a service class</body>
                   <ownedParameter xmi:id="_IYnUNcTzEeuPUctmgKffRA" name="id" type="_IXhvEMTzEeuPUctmgKffRA"/>
                   <ownedParameter xmi:id="_IYnUNsTzEeuPUctmgKffRA" name="customerId" type="_IXhvEMTzEeuPUctmgKffRA"/>
                   <ownedParameter xmi:id="_IYnUN8TzEeuPUctmgKffRA" name="items" type="_IWnJEMTzEeuPUctmgKffRA"/>
-                  <ownedParameter xmi:id="_IYnUOMTzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYnUOMTzEeuPUctmgKffRA" type="_IScawMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>this.setOrderId(id);
 		this.setCustomerId(customerId);  
 	</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYnUOcTzEeuPUctmgKffRA" name="getOrderId" specification="_ISeP8MTzEeuPUctmgKffRA">
-                  <ownedParameter xmi:id="_IYnUOsTzEeuPUctmgKffRA" type="_IXhvEMTzEeuPUctmgKffRA" direction="return"/>
+                  <ownedParameter xmi:id="_IYnUOsTzEeuPUctmgKffRA" type="_IXhvEMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
                   <language>java</language>
                   <body>return id;
 	</body>
@@ -1247,6 +1275,7 @@ to be sent to a service class</body>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYnUQsTzEeuPUctmgKffRA" name="getQuantity" specification="_IXTFk8TzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYnUQ8TzEeuPUctmgKffRA" name="target" type="_IR9SkMTzEeuPUctmgKffRA"/>
                   <ownedParameter xmi:id="_IYnURMTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
                   </ownedParameter>
                   <language>java</language>
@@ -1261,6 +1290,7 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYn7QMTzEeuPUctmgKffRA" name="toString" specification="_ISgFIMTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYn7QcTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                   </ownedParameter>
                   <language>java</language>
@@ -1269,6 +1299,7 @@ to be sent to a service class</body>
                 </ownedBehavior>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYn7QsTzEeuPUctmgKffRA" name="hashCode" specification="_IShTQsTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYn7Q8TzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
                   </ownedParameter>
                   <language>java</language>
@@ -1283,6 +1314,7 @@ to be sent to a service class</body>
                 <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYn7RMTzEeuPUctmgKffRA" name="equals" specification="_IX4UYcTzEeuPUctmgKffRA">
                   <ownedParameter xmi:id="_IYn7RcTzEeuPUctmgKffRA" name="obj" type="_IXq5A8TzEeuPUctmgKffRA"/>
                   <ownedParameter xmi:id="_IYn7RsTzEeuPUctmgKffRA" direction="return">
+                    <name xsi:nil="true"/>
                     <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
                   </ownedParameter>
                   <language>java</language>
@@ -1718,7 +1750,9 @@ to be sent to a service class</body>
             <ownedAttribute xmi:id="_IX_pIcTzEeuPUctmgKffRA" name="items" visibility="private" isLeaf="true" type="_IRagAMTzEeuPUctmgKffRA" isReadOnly="true" association="_IYxsQcTzEeuPUctmgKffRA"/>
             <ownedAttribute xmi:id="_IX_pI8TzEeuPUctmgKffRA" name="utils" visibility="private" isLeaf="true" type="_ISNKMMTzEeuPUctmgKffRA" isReadOnly="true" association="_IYyTUMTzEeuPUctmgKffRA"/>
             <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IYW1gMTzEeuPUctmgKffRA" name="IMS" specification="_IQ-bIMTzEeuPUctmgKffRA">
-              <ownedParameter xmi:id="_IYW1gcTzEeuPUctmgKffRA" type="_IQ3tcMTzEeuPUctmgKffRA" direction="return"/>
+              <ownedParameter xmi:id="_IYW1gcTzEeuPUctmgKffRA" type="_IQ3tcMTzEeuPUctmgKffRA" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>this.utils = new Utils();
 		final CustomerDAO custDAO = new CustomerDAO();
@@ -1758,8 +1792,8 @@ to be sent to a service class</body>
 			case ITEM:
 				active = this.items;
 				break;
-			case ORDER:
-				break;
+			//case ORDER:
+				//break;
 			case STOP:
 				return;
 			default:
@@ -2239,6 +2273,7 @@ to be sent to a service class</body>
   </uml:OpaqueBehavior>
   <uml:OpaqueBehavior xmi:id="_IYexUMTzEeuPUctmgKffRA" name="getDescription" specification="_IYIzEMTzEeuPUctmgKffRA">
     <ownedParameter xmi:id="_IYexUcTzEeuPUctmgKffRA" direction="return">
+      <name xsi:nil="true"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedParameter>
     <language>java</language>
@@ -2249,7 +2284,9 @@ to be sent to a service class</body>
     <ownedParameter xmi:id="_IYexU8TzEeuPUctmgKffRA" name="description">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedParameter>
-    <ownedParameter xmi:id="_IYexVMTzEeuPUctmgKffRA" type="_IR5BIMTzEeuPUctmgKffRA" direction="return"/>
+    <ownedParameter xmi:id="_IYexVMTzEeuPUctmgKffRA" type="_IR5BIMTzEeuPUctmgKffRA" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
     <language>java</language>
     <body>this.description = description;
 	</body>
@@ -2263,7 +2300,9 @@ to be sent to a service class</body>
   </uml:OpaqueBehavior>
   <uml:OpaqueBehavior xmi:id="_IYexVsTzEeuPUctmgKffRA" name="getDomain" specification="_IXBYwMTzEeuPUctmgKffRA">
     <ownedParameter xmi:id="_IYexV8TzEeuPUctmgKffRA" name="utils" type="_ISNKMMTzEeuPUctmgKffRA"/>
-    <ownedParameter xmi:id="_IYexWMTzEeuPUctmgKffRA" type="_IR5BIMTzEeuPUctmgKffRA" direction="return"/>
+    <ownedParameter xmi:id="_IYexWMTzEeuPUctmgKffRA" type="_IR5BIMTzEeuPUctmgKffRA" direction="return">
+      <name xsi:nil="true"/>
+    </ownedParameter>
     <language>java</language>
     <body>Domain domain;
 		while (true) {
